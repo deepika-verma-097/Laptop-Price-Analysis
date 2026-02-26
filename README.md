@@ -101,23 +101,28 @@ Performed:
 
 ## 🏆 Best Performing Model
 
-(Write your best model here after checking results)
-
-Example:
-
 > Stacking Regressor achieved the best performance with:
-> - R² Score: 0.89
-> - MAE: 120
+> - R² Score: 0.8807
+> - MAE:  174.007
+<img width="934" height="721" alt="image" src="https://github.com/user-attachments/assets/82d60eb7-d86d-43b9-b5b0-25e6f4deeb61" />
 
+🎯 What This Graph Shows
+
+Each dot = 1 laptop
+
+X-axis = Actual price
+
+Y-axis = Predicted price
+
+Red line = Perfect prediction line
+
+Dots are close to red line → model is good ✅
+
+The model shows good alignment between actual and predicted values indicating strong predictive performance
 ---
 
 ## 📷 Sample Visualization
 
 (Add screenshots of your graphs here)
 
----
 
-## 🚀 How to Run This Project
-
-1. Clone this repository
-2. Install dependencies:
