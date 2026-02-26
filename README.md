@@ -1,18 +1,123 @@
-# Laptop-Price-Analysis
-Machine Learning Project for Beginners: Laptop Price Analysis This project will help you understand how to analyze and predict laptop prices using a dataset containing laptop specifications. It is a simple regression task where we predict the price of a laptop based on its features like brand, processor, RAM, storage, etc.
+# 💻 Laptop Price Prediction - Machine Learning Project
 
-# Business Problem
+## 📌 Project Overview
 
-Predict the Price of laptop on the basis of
+This project focuses on analyzing laptop specifications and building a machine learning model to predict laptop prices based on their features.
 
-Context A dataset for 1300 laptop models. Content, Company Name, Product Name, Laptop Type, Screen Inches, Screen Resolution, CPU Model, RAM Characteristics, Memory, GPU Characteristics, Operating System, Laptop's Weight, Laptop's Price
+The project includes:
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Building
+- Model Evaluation
+- Model Comparison
 
-Source-https://www.kaggle.com/ionaskel/laptop-prices
+---
 
-Machine Leaning Problem It is a Regresion problem, for a given columns we need to predict the price of laptop.
+## 🎯 Problem Statement
 
-Performance Metric
+To build a regression model that can accurately predict the price of laptops using their specifications such as:
 
-R2 Score
+- Company
+- RAM
+- Storage
+- CPU Frequency
+- GPU
+- Screen Resolution
+- Operating System
+- Weight
+- And more...
 
-Mean Absolute Error
+---
+
+## 📊 Dataset Information
+
+- Total Rows: 1275
+- Total Columns: 23
+- Target Variable: `Price_euros`
+
+The dataset includes detailed laptop specifications including:
+
+- Hardware details
+- Storage types
+- Display specifications
+- Processor details
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- Jupyter Notebook
+
+---
+
+## 📈 Exploratory Data Analysis
+
+Performed:
+
+- Company distribution analysis
+- RAM distribution
+- Storage type analysis
+- OS comparison
+- Price distribution
+- Correlation heatmap
+- Price vs CPU frequency analysis
+- Price vs RAM analysis
+
+---
+
+## 🔧 Feature Engineering
+
+- One-Hot Encoding for categorical variables
+- Automatic detection of object columns
+- Storage feature extraction
+- Data cleaning and preprocessing
+- Train-Test Split (80-20)
+
+---
+
+## 🤖 Models Implemented
+
+- Linear Regression
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- XGBoost Regressor
+- Stacking Regressor (Advanced)
+
+---
+
+## 📊 Model Evaluation Metrics
+
+- R² Score
+- Mean Absolute Error (MAE)
+
+---
+
+## 🏆 Best Performing Model
+
+(Write your best model here after checking results)
+
+Example:
+
+> Stacking Regressor achieved the best performance with:
+> - R² Score: 0.89
+> - MAE: 120
+
+---
+
+## 📷 Sample Visualization
+
+(Add screenshots of your graphs here)
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone this repository
+2. Install dependencies:
