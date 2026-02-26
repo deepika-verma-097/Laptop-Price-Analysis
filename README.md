@@ -123,7 +123,8 @@ The model shows good alignment between actual and predicted values indicating st
 
 ## 📷 Sample Visualization
 
-<img width="524" height="400" alt="Screenshot 2026-02-26 143112" src="https://github.com/user-attachments/assets/b86717b5-db26-47d2-adf2-8b8b93d7b203" />
+<img width="524" height="400" alt="Screenshot 2026-02-26 143112" src="https://github.com/user-attachments/assets/b86717b5-db26-47d2-adf2-8b8b93d7b203" />  <img width="528" height="470" alt="Screenshot 2026-02-26 142657" src="https://github.com/user-attachments/assets/f72dca83-58c9-46df-897f-2057a351fbbc" />
+
 
 
 
